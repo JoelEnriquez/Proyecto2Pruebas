@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hospital>
+  <admin>
+    <CODIGO>ADMIN1</CODIGO>
+    <DPI>69712516133</DPI>
+    <NOMBRE>Diego Domiguez</NOMBRE>
+    <PASSWORD>dfDrVH~9a#-7)^w^P9pB</PASSWORD>
+  </admin>
+  <admin>
+    <CODIGO>ADMIN10</CODIGO>
+    <DPI>29775658008</DPI>
+    <NOMBRE>Edvin Gonzalez</NOMBRE>
+    <PASSWORD>{}$nj-4WJdub)Qh*@[QV</PASSWORD>
+  </admin>
+  <doctor>
+    <CODIGO>MED-123</CODIGO>
+    <NOMBRE>Alejandra Mendez</NOMBRE>
+    <COLEGIADO>3890</COLEGIADO>
+    <DPI>72463794587</DPI>
+    <TELEFONO>31661250</TELEFONO>
+    <ESPECIALIDAD>
+      <TITULO>Pediatria</TITULO>
+      <TITULO>Ginecologia</TITULO>
+      <TITULO>General</TITULO>
+    </ESPECIALIDAD>
+    <CORREO>mail123@hospital.com</CORREO>
+    <HORARIO>
+      <INICIO>6:00</INICIO>
+      <FIN>14:00</FIN>
+    </HORARIO>
+    <TRABAJO>2010-9-2</TRABAJO>
+    <PASSWORD>~fc,X,9;</PASSWORD>
+  </doctor>
+  <doctor>
+    <CODIGO>MED-684</CODIGO>
+    <NOMBRE>Zoila Morales</NOMBRE>
+    <COLEGIADO>1596</COLEGIADO>
+    <DPI>33021270411</DPI>
+    <TELEFONO>67535043</TELEFONO>
+    <ESPECIALIDAD>
+      <TITULO>Gastroenterologo</TITULO>
+    </ESPECIALIDAD>
+    <CORREO>mail458@hospital.com</CORREO>
+    <HORARIO>
+      <INICIO>6:00</INICIO>
+      <FIN>14:00</FIN>
+    </HORARIO>
+    <TRABAJO>2015-1-1</TRABAJO>
+    <PASSWORD>,Guq2]^y</PASSWORD>
+  </doctor>
+  <laboratorista>
+    <CODIGO>LAB-123</CODIGO>
+    <NOMBRE>Diego Mendez</NOMBRE>
+    <REGISTRO>SALUD-2646322</REGISTRO>
+    <DPI>50562544694</DPI>
+    <TELEFONO>74719529</TELEFONO>
+    <EXAMEN>X-ray</EXAMEN>
+    <CORREO>mail123@hospital.com</CORREO>
+    <TRABAJO>
+      <DIA>Lunes</DIA>
+      <DIA>Miercoles</DIA>
+      <DIA>Jueves</DIA>
+      <DIA>Sabado</DIA>
+    </TRABAJO>
+    <TRABAJO>2010-9-2</TRABAJO>
+    <PASSWORD>7"UAYz~z</PASSWORD>
+  </laboratorista>
+  <laboratorista>
+    <CODIGO>LAB-357</CODIGO>
+    <NOMBRE>Diana Morales</NOMBRE>
+    <REGISTRO>SALUD-3068020</REGISTRO>
+    <DPI>36423074912</DPI>
+    <TELEFONO>90269615</TELEFONO>
+    <EXAMEN>X-ray</EXAMEN>
+    <CORREO>mail458@hospital.com</CORREO>
+    <TRABAJO>
+      <DIA>Martes</DIA>
+      <DIA>Jueves</DIA>
+      <DIA>Sabado</DIA>
+    </TRABAJO>
+    <TRABAJO>2015-1-1</TRABAJO>
+    <PASSWORD>Sh*8sA\X</PASSWORD>
+  </laboratorista>
+  <paciente>
+    <CODIGO>177840</CODIGO>
+    <NOMBRE>Mario Diaz</NOMBRE>
+    <SEXO>Hombre</SEXO>
+    <BIRTH>1990-1-1</BIRTH>
+    <DPI>89505278065</DPI>
+    <TELEFONO>50422898</TELEFONO>
+    <PESO>70</PESO>
+    <SANGRE>A-</SANGRE>
+    <CORREO>mail2848@othermail.com</CORREO>
+    <PASSWORD>K^4U;q>=nx5WE954</PASSWORD>
+  </paciente>
+  <paciente>
+    <CODIGO>118258</CODIGO>
+    <NOMBRE>Victor Orozco</NOMBRE>
+    <SEXO>Hombre</SEXO>
+    <BIRTH>1995-11-12</BIRTH>
+    <DPI>69749736369</DPI>
+    <TELEFONO>40576526</TELEFONO>
+    <PESO>65</PESO>
+    <SANGRE>O+</SANGRE>
+    <CORREO>mail4917@othermail.com</CORREO>
+    <PASSWORD>c)vZ,@MYa3]S.RN*</PASSWORD>
+  </paciente>
+  <paciente>
+    <CODIGO>977693</CODIGO>
+    <NOMBRE>Lucia Coti</NOMBRE>
+    <SEXO>Mujer</SEXO>
+    <BIRTH>2018-5-15</BIRTH>
+    <DPI>78207368533</DPI>
+    <TELEFONO>57635181</TELEFONO>
+    <PESO>22</PESO>
+    <SANGRE>O+</SANGRE>
+    <CORREO>mail1031@othermail.com</CORREO>
+    <PASSWORD>jd8Mp"vN{BG[WL:b</PASSWORD>
+  </paciente>
+  <paciente>
+    <CODIGO>565436</CODIGO>
+    <NOMBRE>Dulce Cayax</NOMBRE>
+    <SEXO>Mujer</SEXO>
+    <BIRTH>1997-4-25</BIRTH>
+    <DPI>60950626066</DPI>
+    <TELEFONO>19131386</TELEFONO>
+    <PESO>45</PESO>
+    <SANGRE>A+</SANGRE>
+    <CORREO>mail8926@othermail.com</CORREO>
+    <PASSWORD>\v8!EM;g}g3mQ"Y+</PASSWORD>
+  </paciente>
+  <examen>
+    <CODIGO>123</CODIGO>
+    <NOMBRE>X-ray</NOMBRE>
+    <ORDEN>FALSE</ORDEN>
+    <DESCRIPCION>Esta puede ser una descripcion bastante grande</DESCRIPCION>
+    <COSTO>750</COSTO>
+    <INFORME>IMG</INFORME>
+  </examen>
+  <examen>
+    <CODIGO>234</CODIGO>
+    <NOMBRE>Tomografias</NOMBRE>
+    <ORDEN>TRUE</ORDEN>
+    <DESCRIPCION>Esta puede ser una descripcion bastante grande</DESCRIPCION>
+    <COSTO>2500</COSTO>
+    <INFORME>IMG</INFORME>
+  </examen>
+  <examen>
+    <CODIGO>555</CODIGO>
+    <NOMBRE>CSC</NOMBRE>
+    <ORDEN>FALSE</ORDEN>
+    <DESCRIPCION>El Conteo Sanguíneo Completo (o en inglés FBC) es una prueba tomada para los exámenes de salud más generales — tales como anemia, hemorragia interna, una dieta deficiente, leucocitos bajos</DESCRIPCION>
+    <COSTO>300</COSTO>
+    <INFORME>PDF</INFORME>
+  </examen>
+  <reporte>
+    <CODIGO>594740</CODIGO>
+    <PACIENTE>977693</PACIENTE>
+    <MEDICO>MED-684</MEDICO>
+    <INFORME>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula nisi vitae mi tristique, non laoreet arcu fermentum. Etiam semper efficitur lacinia. Phasellus tempus risus nibh, mattis fringilla urna luctus ut. Nam quis nibh sed nunc faucibus porttitor. Donec id nisi mi. Nunc aliquam orci sit amet augue eleifend ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse laoreet leo et dapibus pulvinar. Nulla ullamcorper in erat sed tincidunt. Nunc metus mi, pellentesque quis maximus ut, rhoncus sit amet nulla. Etiam id suscipit urna. Nullam ut orci nec arcu sollicitudin dictum. Quisque id vestibulum turpis.</INFORME>
+    <FECHA>2020-1-1</FECHA>
+    <HORA>7:00</HORA>
+  </reporte>
+  <reporte>
+    <CODIGO>70890</CODIGO>
+    <PACIENTE>177840</PACIENTE>
+    <MEDICO>MED-852</MEDICO>
+    <INFORME>Sed tortor orci, pharetra in tortor sit amet, rhoncus pretium erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed facilisis libero sed risus aliquam pellentesque. Proin sodales ipsum eget risus tempus, bibendum varius felis scelerisque. Aenean porttitor, odio eget vulputate viverra, nulla neque dictum nibh, quis egestas ipsum nisl in mauris. Aliquam quis maximus purus, id commodo orci. Vivamus semper euismod nibh, vel pretium purus auctor vel. Suspendisse molestie finibus orci vel semper. Cras sit amet auctor felis. Aliquam sodales vulputate lectus, ut pellentesque lectus maximus sed. Maecenas pulvinar urna elit, sit amet hendrerit orci tempor at. Nulla facilisi. Nulla suscipit massa purus, quis viverra tellus imperdiet vitae.</INFORME>
+    <FECHA>2020-1-2</FECHA>
+    <HORA>8:00</HORA>
+  </reporte>
+  <reporte>
+    <CODIGO>117463</CODIGO>
+    <PACIENTE>565436</PACIENTE>
+    <MEDICO>MED-123</MEDICO>
+    <INFORME>Mauris accumsan aliquet pulvinar. Donec sagittis massa at aliquet sollicitudin. Donec malesuada varius diam, nec rutrum magna. Sed sed urna ex. Ut laoreet malesuada sem, et mollis diam sollicitudin quis. Duis pulvinar venenatis lacinia. Donec rhoncus sagittis laoreet. Vestibulum vestibulum purus a venenatis congue. Curabitur vitae urna eget quam pharetra interdum. Donec lacinia, eros sed dapibus aliquet, lacus tellus ullamcorper lacus, a cursus velit dolor eget tortor. Duis ac purus vel lorem congue vehicula. Cras non turpis rutrum, vehicula ligula sed, accumsan erat. Nunc tristique interdum turpis, eu commodo odio rutrum eget.</INFORME>
+    <FECHA>2020-1-3</FECHA>
+    <HORA>9:00</HORA>
+  </reporte>
+  <resultado>
+    <CODIGO>5748348</CODIGO>
+    <PACIENTE>977693</PACIENTE>
+    <MEDICO>MED-684</MEDICO>
+    <EXAMEN>123</EXAMEN>
+    <LABORATORISTA>LAB-123</LABORATORISTA>
+    <ORDEN>ordenA.png</ORDEN>
+    <INFORME>archivoA.png</INFORME>
+    <FECHA>2020-9-6</FECHA>
+    <HORA>8:00</HORA>
+  </resultado>
+  <cita>
+    <CODIGO>866691</CODIGO>
+    <PACIENTE>177840</PACIENTE>
+    <MEDICO>MED-684</MEDICO>
+    <ESPECIALIDAD>Pediatria</ESPECIALIDAD>
+    <FECHA>2020-09-02</FECHA>
+    <HORA>7:00</HORA>
+</cita>
+<consulta>
+    <TIPO>Pediatria</TIPO>
+    <COSTO >150</COSTO>
+  </consulta>
+  <consulta>
+    <TIPO >Gastroenterólogo</TIPO>
+    <COSTO >250</COSTO>
+  </consulta >
+  <consulta >
+    <TIPO >General</TIPO>
+    <COSTO >125</COSTO>
+  </consulta>
+  <consulta>
+    <TIPO >Otorrinolaringólogo</TIPO>
+    <COSTO >200</COSTO>
+  </consulta>
+  <consulta>
+    <TIPO >Obstetra</TIPO>
+    <COSTO >175</COSTO>
+  </consulta>
+  <consulta>
+    <TIPO >Ginecología</TIPO>
+    <COSTO >150</COSTO>
+  </consulta >
+</hospital>

@@ -3,9 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.proyecto2pruebas;
+package LecturaXML;
 
+import ConexionDB.Conexion;
 import java.io.IOException;
+import java.sql.Connection;
 
 /**
  *
@@ -17,13 +19,14 @@ public class NewMain {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        PruebaXML xml = new PruebaXML("data.xml");
+        Connection conexion = Conexion.getConexion();
+        LecturaXML xml = new LecturaXML("data2.xml",conexion);
         try {
             xml.leerXML();
         } catch (IOException ex) {
-            ex.getMessage();
-        }
-        
+            ex.printStackTrace(System.out);
+        } 
+
     }
-    
+
 }
